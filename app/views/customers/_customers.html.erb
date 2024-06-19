@@ -1,0 +1,9 @@
+<div class="customer">
+  <%= image_tag customer.image if customer.image.attached? %>
+  <div class="customer-info">
+    <h3><%= customer.full_name %></h3>
+    <p><%= customer.phone_number %></p>
+    <p><%= customer.email_address %></p>
+    <p><%= customer.notes %></p>
+  </div>
+</div>
